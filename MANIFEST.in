@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jalba_custom *.css
+recursive-include jalba_custom *.csv
+recursive-include jalba_custom *.html
+recursive-include jalba_custom *.ico
+recursive-include jalba_custom *.js
+recursive-include jalba_custom *.json
+recursive-include jalba_custom *.md
+recursive-include jalba_custom *.png
+recursive-include jalba_custom *.py
+recursive-include jalba_custom *.svg
+recursive-include jalba_custom *.txt
+recursive-exclude jalba_custom *.pyc
